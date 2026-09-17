@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Banking FAQ Chatbot</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="chat-card">
+    <header><h1>Banking FAQ Chatbot</h1><p>Ask questions answered from the local banking FAQ knowledge base.</p></header>
+    <section id="messages" class="messages" aria-live="polite">
+      <article class="message bot">Hello! Ask me a question about banking.</article>
+    </section>
+    <form id="chat-form" class="chat-form">
+      <label class="sr-only" for="question">Your question</label>
+      <input id="question" name="question" maxlength="500" placeholder="Example: What is KYC?" required autocomplete="off">
+      <button id="send-button" type="submit">Send</button>
+    </form>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

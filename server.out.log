@@ -1,0 +1,10 @@
+Loading BankingRAG FAISS index for fast retrieval...
+LOADED FAQs
+INFO:     127.0.0.1:58489 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58490 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58492 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58599 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58599 - "GET /static/styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58600 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58600 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58603 - "POST /chat HTTP/1.1" 200 OK
