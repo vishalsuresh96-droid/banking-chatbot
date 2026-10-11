@@ -7,7 +7,7 @@ A small beginner-friendly Retrieval-Augmented Generation (RAG) chatbot built fro
 1. Reads `data/banking_knowledge_base_1000.csv`.
 2. Turns each `Section`, `Question`, and `Answer` row into one document.
 3. Creates embeddings with `all-MiniLM-L6-v2`.
-4. Saves a FAISS vector index locally in `storage/faiss_index/`.
+4. Saves a FAISS vector index locally 
 5. Retrieves the three closest FAQ documents for each question.
 6. Sends only those documents and the question to the LLM.
 7. Shows the grounded response and the retrieved FAQ sources in a browser chat UI.
